@@ -56,6 +56,7 @@ namespace SourceMap
 			size_t src_line;
 			size_t src_col;
 			size_t tkn_idx;
+			std::string_view text;
 			// SrcMapWP doc;
 	};
 
